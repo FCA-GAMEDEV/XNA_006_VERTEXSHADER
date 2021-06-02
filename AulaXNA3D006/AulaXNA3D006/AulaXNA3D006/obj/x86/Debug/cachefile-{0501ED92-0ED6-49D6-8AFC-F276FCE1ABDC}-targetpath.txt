@@ -1,0 +1,3 @@
+Content\Effects\MotionEffect.xnb
+Content\Textures\FlagBrazil.xnb
+Content\Textures\flagACBF.xnb

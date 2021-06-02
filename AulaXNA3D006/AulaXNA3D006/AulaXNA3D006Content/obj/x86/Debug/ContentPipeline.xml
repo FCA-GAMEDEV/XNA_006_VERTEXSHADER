@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Textures\FlagBrazil.bmp</Source>
+      <Name>Textures\FlagBrazil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fábio\documents\visual studio 2010\Projects\AulaXNA3D006\AulaXNA3D006\AulaXNA3D006\bin\x86\Debug\Content\Textures\FlagBrazil.xnb</Output>
+      <Time>2015-06-24T21:57:14.5699427-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\MotionEffect.fx</Source>
+      <Name>Effects\MotionEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fábio\documents\visual studio 2010\Projects\AulaXNA3D006\AulaXNA3D006\AulaXNA3D006\bin\x86\Debug\Content\Effects\MotionEffect.xnb</Output>
+      <Time>2015-11-11T23:46:11.5483027-02:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\flagACBF.jpg</Source>
+      <Name>Textures\flagACBF</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fábio\documents\visual studio 2010\Projects\AulaXNA3D006\AulaXNA3D006\AulaXNA3D006\bin\x86\Debug\Content\Textures\flagACBF.xnb</Output>
+      <Time>2015-06-24T23:00:02.8981535-03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Fábio\Documents\Visual Studio 2010\Projects\AulaXNA3D006\AulaXNA3D006\AulaXNA3D006Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Fábio\Documents\Visual Studio 2010\Projects\AulaXNA3D006\AulaXNA3D006\AulaXNA3D006\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Fábio\Documents\Visual Studio 2010\Projects\AulaXNA3D006\AulaXNA3D006\AulaXNA3D006Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Fábio\Documents\Visual Studio 2010\Projects\AulaXNA3D006\AulaXNA3D006\AulaXNA3D006\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T11:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T11:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T11:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T11:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T11:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T11:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-01-24T13:02:39.6929494-02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
