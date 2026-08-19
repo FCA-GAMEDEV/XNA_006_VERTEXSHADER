@@ -80,12 +80,14 @@ namespace AulaXNA3D006
 
         public void Update(GameTime gameTime)
         {
-            this.time += gameTime.ElapsedGameTime.Milliseconds / 1000f * this.speed;
+            this.time += (float)gameTime.ElapsedGameTime.TotalSeconds * this.speed;
         }
 
         public virtual void Draw(_Camera camera)
         {
+            // quando o processamento fica para GPU
             this.device.SetVertexBuffer(this.vBuffer);
+            this.device.Indices = this.iBuffer;
 
             this.effect.CurrentTechnique = this.effect.Techniques["Technique1"];
             this.effect.Parameters["World"].SetValue(this.world);
@@ -98,13 +100,22 @@ namespace AulaXNA3D006
             {
                 pass.Apply();
 
-                this.device.DrawUserIndexedPrimitives<VertexPositionTexture>(PrimitiveType.TriangleList,
-                                                                             this.verts,
-                                                                             0, 
-                                                                             this.verts.Length,
-                                                                             this.indices,
-                                                                             0,
-                                                                             this.indices.Length / 3);
+                // quando o processamento fica na CPU
+                //this.device.DrawUserIndexedPrimitives<VertexPositionTexture>(PrimitiveType.TriangleList,
+                //                                                             this.verts,
+                //                                                             0, 
+                //                                                             this.verts.Length,
+                //                                                             this.indices,
+                //                                                             0,
+                //                                                             this.indices.Length / 3);
+
+                // quando o processamento fica na GPU
+                this.device.DrawIndexedPrimitives(PrimitiveType.TriangleList,
+                                                  0,
+                                                  0,
+                                                  this.verts.Length,
+                                                  0,
+                                                  this.indices.Length / 3);
             }
         }
     }

@@ -36,6 +36,11 @@ namespace AulaXNA3D006
 
             this.camera = new _Camera();
 
+            RasterizerState rs = new RasterizerState();
+            rs.CullMode = CullMode.None;
+            //rs.FillMode = FillMode.WireFrame;
+            GraphicsDevice.RasterizerState = rs;
+
             base.Initialize();
         }
 
@@ -66,11 +71,6 @@ namespace AulaXNA3D006
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            RasterizerState rs = new RasterizerState();
-            rs.CullMode = CullMode.None;
-            //rs.FillMode = FillMode.WireFrame;
-            GraphicsDevice.RasterizerState = rs;
-            
             this.quad.Draw(this.camera);
 
             base.Draw(gameTime);

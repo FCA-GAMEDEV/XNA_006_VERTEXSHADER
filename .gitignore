@@ -1,0 +1,18 @@
+# Cache do Visual Studio e Arquivos do Usuário
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Pastas de Build e Binários
+bin/
+obj/
+
+# Arquivos temporários do XNA Content Pipeline
+[Oo]bj/
+[Bb]in/
+
+# Windows thumbnail cache
+Thumbs.db
+thumbs.db
